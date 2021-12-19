@@ -2,7 +2,7 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
-	public static int ERROR_FLAG1 = -1;
+	public static final int ERROR_FLAG1 = -1;
 	Node last;
 	int i;
 
