@@ -9,6 +9,14 @@ public class DefaultCountingOutRhymer {
 	private final int[] numbers = new int[STACK_CAPACITY];
 	private int total = EMPTY_STACK_VALUE;
 
+	public int getTotal() {
+		return this.total;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
+	}
+
 	public void countIn(int in) {
 		if (!isFull())
 			numbers[++total] = in;
