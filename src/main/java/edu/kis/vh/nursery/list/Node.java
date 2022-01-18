@@ -10,10 +10,6 @@ public class Node {
 		return this.value;
 	}
 
-	public void setValue(int value) {
-		this.value = value;
-	}
-
 	public Node getPrev() {
 		return this.prev;
 	}
